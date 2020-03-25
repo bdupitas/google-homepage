@@ -1,12 +1,4 @@
-.item1 {
-    grid-row-start: 1;
-    grid-row-end: 1;
-}
 
-.grid-container {
-    display: grid;
-    grid-gap: 50px;
-}
 
 #the-logo {
     padding: 200px 200px 10px 200px;
@@ -28,9 +20,10 @@
 #search-bar input {
     border-radius: 25px;
     border: 2px solid #989899;
-    padding: 20px;
-    width: 584x;
+    padding: 10px 30px 10px ;
+    width: 584px;
     height: 52px;
+    
 }
 
 div#search-bar {
@@ -62,4 +55,29 @@ div#search-bar {
 #wrapper {
     margin-left: auto;
     margin-right: auto;
+}
+
+#nav-bar{
+    display: inline;
+}
+
+
+#links{
+    
+    display: inline;
+}
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+    padding: 10px 10px 20px 15px;
+    color: #000;
+    font-size: 15px;
+}
+
+input{
+    background-image: url(photos/google-search-magnifying-glass-icon-5.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 10px;
+    
 }
