@@ -1,5 +1,22 @@
-.center {
-    padding: 70px 0;
-    border: ;
+
+.item1 { grid-row-start: 1;
+         grid-row-end: 1;
+          }
+.item2 { grid-row-start:2;
+         grid-row-end: 1; }
+.item3 { grid-row-start: 2; grid-row-end: 2; }
+
+  .grid-container {
+    display: grid;
+    grid-gap: 50px ;
+  }
+  #the-logo{
+    padding: 200px
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
     text-align: center;
   }
