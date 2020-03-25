@@ -11,7 +11,11 @@
     grid-gap: 50px ;
   }
   #the-logo{
-    padding: 200px
+    padding: 200px 200px 0px 200px;
+  }
+  .center input{
+    height: 52px;
+    width: 584px;
   }
   .center {
     display: block;
